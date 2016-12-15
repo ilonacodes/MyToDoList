@@ -1,0 +1,45 @@
+body {
+    font-family: Georgia, sans-serif;
+    background: beige;
+}
+
+.container {
+    margin: 0 auto;
+    background: white;
+    width: 300px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+h2 {
+    color: #ef746b;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    padding: 6px 15px 3px 5px;
+}
+
+#button {
+    display: inline-block;
+    background-color: #9dd55d;
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+#button:hover {
+    cursor: pointer;
+    opacity: .9;
+}
